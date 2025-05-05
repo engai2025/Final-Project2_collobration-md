@@ -169,5 +169,91 @@
     margin-left: -60%;
   
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/* Tablets and small laptops */
+@media (max-width: 999px) {
+    .cdn {
+      display: none;
+    }
+  
+    .navigation_bar {
+      position: absolute;
+      top: 70px;
+      right: 0;
+      width: 100%;
+      background-color: #222;
+      flex-direction: column;
+      align-items: center;
+      transform: translateX(100%);
+      transition: transform 0.3s ease;
+      padding-bottom: 1rem;
+    }
+  
+    .navigation_bar.active {
+      transform: translateX(0);
+    }
+  
+    .navigation_bar .links {
+      flex-direction: column;
+      gap: 1.5rem;
+      padding: 1.5rem 0;
+    }
+  
+    .navigation_bar .cdn {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+      margin-top: 1rem;
+    }
+  
+    .burger {
+      display: flex;
+    }
+}  
+
+
+
+
+
+/* Mobile phones */
+@media (max-width: 768px) {
+    .hero {
+      flex-direction: column;
+      padding: 60px 10px;
+    }
+  
+    .content {
+      margin: 0 10px;
+      margin-left: 55%;
+      text-align: center;
+      
+    }
+    .content h3{
+      font-size: 1.75rem;
+      margin-left: -101%;
+    }
+    .content p{
+      font-size: 1.29rem;
+      color: whitesmoke;
+    }
+}  
   
   
