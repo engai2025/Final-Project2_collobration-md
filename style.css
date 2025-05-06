@@ -113,9 +113,9 @@
     border-radius: 3px;
     transition: all 0.3s ease;
   }
-  /* ================================================================ */
-        Hero Section
-.hero {
+ /* Hero Stle Section */
+      
+/* .hero {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,7 +170,7 @@
     margin: 0 auto;
     margin-left: -60%;
   
-  }
+  } */
 
 
 
@@ -191,7 +191,7 @@
 
   
 /* Tablets and small laptops */
-@media (max-width: 999px) {
+/* @media (max-width: 999px) {
     .cdn {
       display: none;
     }
@@ -232,11 +232,11 @@
 }  
 
 
-
+ */
 
 
 /* Mobile phones */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .hero {
       flex-direction: column;
       padding: 60px 10px;
@@ -258,4 +258,4 @@
     }
 }  
   
-  
+   */
